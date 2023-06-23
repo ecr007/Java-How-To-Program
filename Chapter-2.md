@@ -23,10 +23,13 @@ To make a group sets of expressions, together, they create what is known as a co
 The stating point of every Java Applications.
 
 ```java
-public static void main(String[] args){
-  System.out.println("Welcome to Java World!!");
-  
-} // end method main
+// Set Javadoc
+public class Welcome1{
+  public static void main(String[] args){
+    System.out.println("Welcome to Java World!!");
+    
+  } // end method main
+}
 ```
 
 Note: JVM (Java Virtual Machine) can translete the bytecode (.class) into instructions that are understood by the underlying operating system and hardware.
