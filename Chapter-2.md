@@ -109,3 +109,16 @@ Note: JVM (Java Virtual Machine) can translete the bytecode (.class) into instru
 ```System.out.printf("Format String",args)``` : (f) means formatted.
 
 - args: is a comma-separated list
+
+```java
+System.out.printf("%s%n%s%n","Hello Everybody","To Java World !!");
+
+// Hello Everybody
+// To Java World !!
+```
+
+**Format Specifiers:** begin with percent sign (%) fallowed by character that represents the *datatype*.
+
+Note: For Example, the format specifier %s is a placeholder for a String.
+
+
