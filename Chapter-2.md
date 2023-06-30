@@ -38,6 +38,7 @@ Note: JVM (Java Virtual Machine) can translete the bytecode (.class) into instru
 
 - Slash ```/```
 - Backslash ```\``` (Some is a escape character)
+- Pipe  ```|```
 
 ### Escape Sequence
 
@@ -121,4 +122,21 @@ System.out.printf("%s%n%s%n","Hello Everybody","To Java World !!");
 
 Note: For Example, the format specifier %s is a placeholder for a String.
 
+| Format Specifier | Meaning |
+| ---------------- | ------- |
+| %%               | Inserts a % sign |
+| %x or %X         | Integer Hexadecimal |
+| %t or %T         | Time and Date |
+| %s or %S         | String |
+| %n               | Inserts a new line character |
+| %o               | Octal Integer |
+| %f               | Decimal Floating Point |
+| %e or %E         | Scientific Notation |
+| %h or %H         | Hash code of the argument |
+| %d               | Decimal Integer |
+| %b or %B         | Boolean |
+| %c               | Character |
+| %a or %A         | Floating-point Hexadecimal |
+
+## Another Application: Adding Integers
 
