@@ -1,4 +1,4 @@
-# Introductions to Java Applications Input/Output and Operators.
+r# Introductions to Java Applications Input/Output and Operators.
 
 Note: Syntax error also called compiler errors, compiler-time erros or compilation errors.
 
@@ -34,3 +34,72 @@ public class Welcome1{
 
 Note: JVM (Java Virtual Machine) can translete the bytecode (.class) into instructions that are understood by the underlying operating system and hardware.
 
+**Characters**
+
+- Slash ```/```
+- Backslash ```\``` (Some is a escape character)
+
+### Escape Sequence
+
+<table>
+  <tr>
+    <th>Character</th>
+    <th>ASCII Code</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>\a</td>
+    <td>07</td>
+    <td>Alert (Beep, Bell) (added in C89)</td>
+  </tr>
+  <tr>
+    <td>\b</td>
+    <td>08</td>
+    <td>Backspace</td>
+  </tr>
+  <tr>
+    <td>\e</td>
+    <td>1B</td>
+    <td>Escape character</td>
+  </tr>
+  <tr>
+    <td>\f</td>
+    <td>0C</td>
+    <td>Formfeed Page Break</td>
+  </tr>
+  <tr>
+    <td>\n</td>
+    <td>0A</td>
+    <td>Newline (Line Feed); see notes below</td>
+  </tr>
+  <tr>
+    <td>\r</td>
+    <td>0D</td>
+    <td>Carriage Return</td>
+  </tr>
+  <tr>
+    <td>\t</td>
+    <td>09</td>
+    <td>Horizontal Tab</td>
+  </tr>
+  <tr>
+    <td>\v</td>
+    <td>0B</td>
+    <td>Vertical Tab</td>
+  </tr>
+  <tr>
+    <td>\\</td>
+    <td>5C</td>
+    <td>Backslash</td>
+  </tr>
+  <tr>
+    <td>\'</td>
+    <td>27</td>
+    <td>Apostrophe or single quotation mark</td>
+  </tr>
+  <tr>
+    <td>\"</td>
+    <td>22</td>
+    <td>Double quotation mark</td>
+  </tr>
+</table>
