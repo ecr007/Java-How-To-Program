@@ -1,4 +1,4 @@
-r# Introductions to Java Applications Input/Output and Operators.
+# Introductions to Java Applications Input/Output and Operators.
 
 Note: Syntax error also called compiler errors, compiler-time erros or compilation errors.
 
