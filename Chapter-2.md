@@ -103,3 +103,6 @@ Note: JVM (Java Virtual Machine) can translete the bytecode (.class) into instru
     <td>Double quotation mark</td>
   </tr>
 </table>
+
+## Displaying with printf
+
