@@ -106,3 +106,6 @@ Note: JVM (Java Virtual Machine) can translete the bytecode (.class) into instru
 
 ## Displaying with printf
 
+```System.out.printf("Format String",args)``` : (f) means formatted.
+
+- args: is a comma-separated list
