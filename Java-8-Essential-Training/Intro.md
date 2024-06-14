@@ -17,6 +17,6 @@ Java EE: Enterprise Edition
 
 see: https://newrelic.com/resources/report/2023-state-of-the-java-ecosystem
 
-<img src="img/java-history-1.png">
+<img src="/img/java-history-1.png">
 
-<img src="img/java-history-2.png">
+<img src="/img/java-history-2.png">
