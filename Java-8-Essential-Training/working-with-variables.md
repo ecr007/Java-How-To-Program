@@ -96,3 +96,65 @@ public static void main(String[] args) {
 }
 
 ```
+
+**Narrowing the type** When you going from a larger to smaller. For example, when you cast a value to another is possile lost data
+
+```java
+public static void main(String[] args){
+    double dNum = 3.142568d;
+    int iNum = (int) dNum;
+
+    System.out.println("Value is: "+iNum); // 3
+}
+```
+
+## Using mathematical operators and the Math class
+
+source: https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html
+
+The Maths class contains methods for performing basic numeric operations such as the elementary exponential, logarithm, square root, and trigonometric functions. 
+
+## Working with Boolean values and expressions. 
+
+```java
+boolean value = true or false;
+
+// Helper class
+Boolean xx = new Boolean();
+
+String some = "true";
+
+boolean value = xx.parseString(some);
+```
+
+## Working with character values 
+
+Java distinguishes between characters and strings, a character is a primitive Data Type and it consists of just single character and on the other hand string is a Complex Object. 
+
+Literal for characters are always wrapped in single quotes.
+
+Note: You can use unicode for represent characters. 
+
+Helper Class: Character
+
+```java
+char x = 'j';
+
+System.out.println("Out -> "+ Character.toUpperCase(x));
+```
+
+## Using Java Operators
+
+- instanceof : to ask whether an object is.
+
+```java
+String some = "Hello world";
+
+if(some instanceof java.lang.String){
+    System.out.println("Is a string");
+}
+```
+
+<img src="/img/operator-1.png" width="50%">
+<img src="/img/operator-2.png" width="50%">
+<img src="/img/operator-3.png" width="50%">
