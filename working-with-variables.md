@@ -13,13 +13,13 @@ All variables must have their types declared.
 **Primitive number**
 All primitive variable are starting by 0; default;
 
-<img src="/img/primitive-data-types.png">
+<img src="img/primitive-data-types.png">
 
 **Helper Classes**
 
 Are part of Java Runtime Library, Each of these classes can be used for converting values from one primitive data type to another and to formart value 
 
-<img src="/img/helper-classes.png">
+<img src="img/helper-classes.png">
 
 Helper Classes Package: java.lang.HELPER CLASS NAME
 
@@ -155,6 +155,6 @@ if(some instanceof java.lang.String){
 }
 ```
 
-<img src="/img/operator-1.png" width="50%">
-<img src="/img/operator-2.png" width="50%">
-<img src="/img/operator-3.png" width="50%">
+<img src="img/operator-1.png" width="50%">
+<img src="img/operator-2.png" width="50%">
+<img src="img/operator-3.png" width="50%">
