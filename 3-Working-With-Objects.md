@@ -207,3 +207,9 @@ public static boolean isValidPosition(StringBuilder sb, int position) {
 // at main
 sValidPosition(sb, 5);
 ```
+
+## Scanner Class
+
+Package: import java.util.Scanner;
+
+A simple text Scanner which can parse primitives types and String using regular expression. 
