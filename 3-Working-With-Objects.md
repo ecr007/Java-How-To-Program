@@ -246,3 +246,55 @@ class Main{
 
 Source: <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html">Click to see Scanner Doc</a>
 
+## Comparing String values
+
+Using equality operators as you might do with numbers, doesn't work the way you'd expect.
+
+** How to compare string? there are two methods **
+
+```.equal()``
+```.equalIgnoreCase()```
+
+Note: Do not use ==, because it compares the momery reference not the value.
+
+## Formatting numeric value as String
+
+Its important to use ```Locale(String language, String country)``` to force the localization of the app and do not depend of the device.
+
+**Important Packages**
+import java.text.NumberFormat;
+import java.util.Locale;
+
+Note: .format return a String object.
+
+```java
+import java.text.NumberFormat;
+import java.util.Locale;
+
+class Format{
+	public static void main(String[] args){
+		Locale locale = new Locale("en", "US");
+
+		double doubleNum = 785_475_142.63;
+
+		// Formatting to number
+		NumberFormat toNum = NumberFormat.getNumberInstance(locale);
+		String strNum = toNum.format(doubleNum);
+		System.out.println(strNum);
+
+		// Formatting to currency
+		NumberFormat toCurr = NumberFormat.getCurrencyInstance(locale);
+		String currNum = toCurr.format(doubleNum);
+		System.out.println(currNum);
+
+		// Formatting to integer
+		NumberFormat toInt = NumberFormat.getIntegerInstance(locale);
+		String intNum = toInt.format(doubleNum);
+		System.out.println(intNum);
+	}
+}
+```
+
+## Parsing String Value
+
+
