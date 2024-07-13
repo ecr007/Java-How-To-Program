@@ -47,7 +47,7 @@ for (char c : list ){
 
 ## Converting primitive values to String
 
-Its is simple, you must use Helper Classes.
+Its simple, you must use Helper Classes.
 
 Note: The use of underscores as separator in your code, was intruduced in Java 7 and it makes it much easier to look at long numeric values. 
 
@@ -213,3 +213,36 @@ sValidPosition(sb, 5);
 Package: import java.util.Scanner;
 
 A simple text Scanner which can parse primitives types and String using regular expression. 
+
+Using System.in as parameter to collect data from the console.
+
+```java
+import java.util.Scanner;
+
+class Main{
+    public static void main(String[] args){
+        Scanner obj = new Scanner(System.in);
+        
+        System.out.println("** App is starting **");
+
+        System.out.print("\nWhat is your ID? ");
+        int id = obj.nextInt();
+
+        // Preventing nextLine Error after next int or others next method
+
+        obj.nextLine(); // Reading the \n cause by enter
+
+        System.out.print("\nWhat is your name? ");
+        String name = obj.nextLine();
+
+        System.out.print("\nWhat is your age? ");
+        int age = obj.nextInt();
+
+        System.out.printf("\nYour name is %s and your age is %d and your ID is %d\n", name, age, id);
+
+    }
+}
+```
+
+Source: <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html">Click to see Scanner Doc</a>
+
