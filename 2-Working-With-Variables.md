@@ -155,6 +155,6 @@ if(some instanceof java.lang.String){
 }
 ```
 
-<img src="img/operator-1.png" width="50%">
-<img src="img/operator-2.png" width="50%">
-<img src="img/operator-3.png" width="50%">
+<img src="img/operator-1.png">
+<img src="img/operator-2.png">
+<img src="img/operator-3.png">

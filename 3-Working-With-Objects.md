@@ -10,7 +10,7 @@
 - Instantiation: when a class is istantiated.
 - Instance method.
 
-<img src="img/java-classes-part.png" width="50%">
+<img src="img/java-classes-part.png">
 
 **String Class**
 
@@ -28,7 +28,7 @@ String obj = "OK"; // Shortcut.
 
 ```
 
-<img src="img/string-class.png" width="50%">
+<img src="img/string-class.png">
 
 ## Using the String class
 
