@@ -297,4 +297,15 @@ class Format{
 
 ## Parsing String Value
 
+See the following methods:
+
+- String.indexOf(String str): returns the index (int) within this String of the first occurrence of the specified substring.
+- String.length(): returns the length of this string.
+- String.trim(): returns a string whose values is this string with any leading or trailing whitespaces removed.
+- String.matches(String regex): returns a boolean whether or not this string matches the given regular expression.
+
+
+Source: https://docs.oracle.com/javase/8/docs/api/java/lang/String.html
+Source: https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html
+
 
