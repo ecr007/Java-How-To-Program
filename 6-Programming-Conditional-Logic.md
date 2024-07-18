@@ -54,3 +54,28 @@ static public double getValues(String ... items){
 
 ## Pasing Arguments by Copy or by Reference
 
+- Passing to a method by copy
+    - The method receive a copy of the variable
+
+- Passing to a method by reference
+    - The method receive a reference to the original object.
+
+Note: In java variables are always passed by copy. 
+
+### Primitive Wrapped in Object 
+
+<img src="img/primitive-wrapped.png">
+
+Note: Array is complex value and it saves the object item reference, because it change like reference. 
+
+### Object variables are References
+
+- A reference variables points to a location in memory.
+
+- When a variable is passed to a function, a new reference is always created.
+
+- Both references points to the original objects or values. 
+
+### Passing String values, it never change because is inmmutable
+
+<img src="img/string-reference.png">
