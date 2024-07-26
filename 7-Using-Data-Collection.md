@@ -66,6 +66,8 @@ Higuey and its capital are Bavaro.
 */
 ```
 
+<img src="img/java-2d-array.jpg">
+
 ## Common properties and methods of arrays.
 
 - array.lenght:int
