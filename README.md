@@ -2,6 +2,7 @@
 
 ## Java Directory Structure
 
+```
 MyJavaApp/
 │
 ├── src/
@@ -33,6 +34,7 @@ MyJavaApp/
 ├── .gitignore
 ├── README.md
 └── build.gradle or pom.xml
+```
 
 ## Explanation
 
